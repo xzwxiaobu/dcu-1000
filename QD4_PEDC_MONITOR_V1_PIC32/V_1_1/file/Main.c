@@ -111,7 +111,7 @@ __attribute__((section (".SEG_MainHandler"))) main()
     initMMSModule();
     
     /* 初始化：IBP PSL SIG ... 板通信 */
-    initIPSModule();
+   //  initIPSModule();
     
     /* 初始化：PIC24 板通信 */
     initPic24Module();
