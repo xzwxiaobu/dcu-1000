@@ -38,7 +38,7 @@ PRIVATE int8u RxPic24DataBuf[UART_COM_RXBUFSIZE];         /* 串口通信控制-接收缓
 PRIVATE int8u TxPic24DataBuf[UART_COM_TXBUFSIZE];         /* 串口通信控制-发送缓存 */
     PUBLIC tUartComm * getPic24UartCommPtr(void)
     {
-        return &uartPic24;
+//        return &uartPic24;
     }
     
     /* Uart 发送是否空闲：FALSE 表示空闲，TRUE 表示忙 */
