@@ -1,0 +1,1 @@
+copy flash-256K.h  ..\file\canbus\flash.h

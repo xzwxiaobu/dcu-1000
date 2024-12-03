@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
+      <logicalFolder name="BASModule" displayName="BASModule" projectFiles="true">
+        <itemPath>../file/BASModule/BASSys_App.h</itemPath>
+        <itemPath>../file/BASModule/BASSys_Reg.h</itemPath>
+        <itemPath>../file/BASModule/BASSys_Uart.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="canbus" projectFiles="true">
+        <logicalFolder name="f1" displayName="drv" projectFiles="true">
+          <itemPath>../file/canbus/drv/_glbApi.h</itemPath>
+          <itemPath>../file/canbus/drv/CanDrv.h</itemPath>
+          <itemPath>../file/canbus/drv/CanTgt.h</itemPath>
+          <itemPath>../file/canbus/drv/glbCan.h</itemPath>
+          <itemPath>../file/canbus/drv/glbUpdate.h</itemPath>
+          <itemPath>../file/canbus/drv/Update.h</itemPath>
+        </logicalFolder>
+        <itemPath>../file/canbus/_g_canbus.h</itemPath>
+        <itemPath>../file/canbus/canbus.h</itemPath>
+        <itemPath>../file/canbus/flash.h</itemPath>
+        <itemPath>../file/canbus/ObjDict.H</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="CANModule" projectFiles="true">
+        <itemPath>../file/CANModule/can.h</itemPath>
+        <itemPath>../file/CANModule/dcu.h</itemPath>
+        <itemPath>../file/CANModule/DCU_DOOR_STATE.H</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="common" projectFiles="true">
+        <itemPath>../file/common/i2cDrv.h</itemPath>
+        <itemPath>../file/common/Ini_Cpu.h</itemPath>
+        <itemPath>../file/common/sysTimer.h</itemPath>
+        <itemPath>../file/common/uartDrv.h</itemPath>
+        <itemPath>../file/common/usrCRC.h</itemPath>
+        <itemPath>../file/common/uartDMA.h</itemPath>
+        <itemPath>../file/common/uartRxBuff.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="IOCfg" projectFiles="true">
+        <itemPath>../file/IOCfg/MonCommCfg.h</itemPath>
+        <itemPath>../file/IOCfg/IOConfig.h</itemPath>
+        <itemPath>../file/IOCfg/commDef.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="IOHandle" projectFiles="true">
+        <itemPath>../file/IOHandle/IO_HANDLE.h</itemPath>
+        <itemPath>../file/IOHandle/mainIO.h</itemPath>
+        <itemPath>../file/IOHandle/PCB_IO_Def.h</itemPath>
+        <itemPath>../file/IOHandle/ToMMS_InfoDef.h</itemPath>
+        <itemPath>../file/IOHandle/SZ16LogicUB1.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6" displayName="IPSModule" projectFiles="true">
+        <itemPath>../file/IPSModule/IPS_App.h</itemPath>
+        <itemPath>../file/IPSModule/IPSUart.h</itemPath>
+        <itemPath>../file/IPSModule/manLogicPcb.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="MMSModule" projectFiles="true">
+        <itemPath>../file/MMSModule/MMS_App.h</itemPath>
+        <itemPath>../file/MMSModule/MMS_inhibit.h</itemPath>
+        <itemPath>../file/MMSModule/MMSUart.h</itemPath>
+        <itemPath>../file/MMSModule/saveIbpX.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="PIC24Module" projectFiles="true">
+        <itemPath>../file/PIC24Module/PIC24_App.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="PIC24Update" displayName="PIC24Update" projectFiles="true">
+        <itemPath>../file/PIC24Update/P24UpdateDrv.h</itemPath>
+        <itemPath>../file/PIC24Update/P24UpdateIF.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f9" displayName="SigModule" projectFiles="true">
+        <itemPath>../file/SigModule/ModbusDef.h</itemPath>
+        <itemPath>../file/SigModule/SigSys_App.h</itemPath>
+        <itemPath>../file/SigModule/SigSys_Reg.h</itemPath>
+        <itemPath>../file/SigModule/SigSys_Uart.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="SWLogic" displayName="SWLogic" projectFiles="true">
+        <itemPath>../file/SWLogic/SWLogic.h</itemPath>
+        <itemPath>../file/SWLogic/SWLogicCfg.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f10" displayName="TestCode" projectFiles="true">
+        <itemPath>../file/TestCode/test.h</itemPath>
+      </logicalFolder>
+      <itemPath>../file/_cpu.h</itemPath>
+      <itemPath>../file/Define.h</itemPath>
+      <itemPath>../file/Include.h</itemPath>
+      <itemPath>../file/CfgBitsSetting.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
+      <logicalFolder name="BASModule" displayName="BASModule" projectFiles="true">
+        <itemPath>../file/BASModule/BASSys_App.c</itemPath>
+        <itemPath>../file/BASModule/BASSys_Reg.c</itemPath>
+        <itemPath>../file/BASModule/BASSys_Uart.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="CANBus" projectFiles="true">
+        <logicalFolder name="f1" displayName="drv" projectFiles="true">
+          <itemPath>../file/canbus/drv/ApiCanCom.c</itemPath>
+          <itemPath>../file/canbus/drv/ApiCanMst.c</itemPath>
+          <itemPath>../file/canbus/drv/ApiCanSlv.c</itemPath>
+          <itemPath>../file/canbus/drv/ApiMain.c</itemPath>
+          <itemPath>../file/canbus/drv/CanDrv.c</itemPath>
+          <itemPath>../file/canbus/drv/UpApiMst.c</itemPath>
+          <itemPath>../file/canbus/drv/UpApiSlv.c</itemPath>
+          <itemPath>../file/canbus/drv/UpBios.c</itemPath>
+          <itemPath>../file/canbus/drv/Update.c</itemPath>
+        </logicalFolder>
+        <itemPath>../file/canbus/canbus.c</itemPath>
+        <itemPath>../file/canbus/ObjDict.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="CANModule" projectFiles="true">
+        <itemPath>../file/CANModule/can.c</itemPath>
+        <itemPath>../file/CANModule/dcu.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="common" projectFiles="true">
+        <itemPath>../file/common/i2cDrv.c</itemPath>
+        <itemPath>../file/common/Ini_Cpu.c</itemPath>
+        <itemPath>../file/common/sysTimer.c</itemPath>
+        <itemPath>../file/common/uartDrv.c</itemPath>
+        <itemPath>../file/common/usrCRC.c</itemPath>
+        <itemPath>../file/common/uartDMA.c</itemPath>
+        <itemPath>../file/common/uartRxBuff.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="IOCfg" projectFiles="true">
+        <itemPath>../file/IOCfg/IOConfig.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6" displayName="IOHandle" projectFiles="true">
+        <itemPath>../file/IOHandle/IO_HANDLE.c</itemPath>
+        <itemPath>../file/IOHandle/mainIO.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="IPSModule" projectFiles="true">
+        <itemPath>../file/IPSModule/IPSUart.c</itemPath>
+        <itemPath>../file/IPSModule/IPS_App.c</itemPath>
+        <itemPath>../file/IPSModule/manLogicPcb.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="MMSModule" projectFiles="true">
+        <itemPath>../file/MMSModule/MMS_App.c</itemPath>
+        <itemPath>../file/MMSModule/MMSUart.c</itemPath>
+        <itemPath>../file/MMSModule/saveIbpX.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f9" displayName="Pic24Module" projectFiles="true">
+        <itemPath>../file/PIC24Module/PIC24_App.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="PIC24Update" displayName="PIC24Update" projectFiles="true">
+        <itemPath>../file/PIC24Update/P24UpdateDrv.c</itemPath>
+        <itemPath>../file/PIC24Update/P24UpdateIF.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="SigModule" displayName="SigModule" projectFiles="true">
+        <itemPath>../file/SigModule/SigSys_App.c</itemPath>
+        <itemPath>../file/SigModule/SigSys_Reg.c</itemPath>
+        <itemPath>../file/SigModule/SigSys_Uart.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="TestCode" projectFiles="true">
+        <itemPath>../file/TestCode/test.c</itemPath>
+      </logicalFolder>
+      <itemPath>../file/Main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript" displayName="链接器文件" projectFiles="true">
+      <itemPath>../linker/linkerELF_512.ld</itemPath>
+      <itemPath>../linker/procdefs_512.ld</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles" displayName="重要文件" projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>..</Elem>
+    <Elem>..\file</Elem>
+    <Elem>..\linker</Elem>
+    <Elem>..\file\wtj</Elem>
+    <Elem>..\file\SIG_UART</Elem>
+    <Elem>..\file\canbus\drv</Elem>
+    <Elem>..\file\canbus</Elem>
+    <Elem>..\file\IbpPslSig_UART</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC32MX795F512H</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>ICD4Tool</platformTool>
+        <languageToolchain>C32</languageToolchain>
+        <languageToolchainVersion>2.02</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.0.53"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>true</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C32>
+        <property key="additional-warnings" value="false"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value="..\file;..\file\canbus;..\file\CANModule;..\file\canbus\drv;..\file\Common;..\file\SigModule;E:\Program Files (x86)\Microchip\MPLAB C32 Suite\pic32-libs\peripheral\i2c\source;E:\Program Files (x86)\Microchip\MPLAB C32 Suite\pic32mx\include;..\file\IbpPslSig_Uart;..\file\IOCfg;..\file\IOHandle;..\file\IPSModule;..\file\MMSModule;..\file\PIC24Module;..\file\PIC24Update;..\file\TestCode;..\file\SWLogic;..\file\BASModule"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="place-data-into-section" value="true"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value="PCB_MON_SZ20_V1;PRIVATE_STATIC_DIS"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32>
+      <C32-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="enable-symbols" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value="..;."/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC32asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="warning-level" value=""/>
+      </C32-AS>
+      <C32-LD>
+        <property key="enable-check-sections" value="false"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories"
+                  value="C:\Program Files (x86)\Microchip\MPLAB C32\lib;C:\Program Files (x86)\Microchip\MPLAB C32\pic32mx\lib;."/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="true"/>
+        <property key="heap-size" value="0"/>
+        <property key="input-libraries" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file"
+                  value="&quot;${DISTDIR}/PEDC_IBP_P32mx795F512H.X.${IMAGE_TYPE}.map&quot;"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="true"/>
+        <property key="stack-size" value="1024"/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32Global>
+        <property key="legacy-libc" value="false"/>
+      </C32Global>
+      <ICD3PlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CAN1" value="true"/>
+        <property key="CAN2" value="true"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="ETHERNET CONTROLLER" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C3" value="true"/>
+        <property key="I2C4" value="true"/>
+        <property key="I2C5" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="SPI 2" value="true"/>
+        <property key="SPI 3" value="true"/>
+        <property key="SPI 4" value="true"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="UART3" value="true"/>
+        <property key="UART4" value="true"/>
+        <property key="UART5" value="true"/>
+        <property key="UART6" value="true"/>
+        <property key="USB" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="true"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="false"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="1d000000-1d07ffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges" value=""/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+        <property key="冻结所有其他外设" value="true"/>
+        <property key="安全段。分部编程" value="FullChipProgramming"/>
+      </ICD3PlatformTool>
+      <ICD4Tool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CAN1" value="true"/>
+        <property key="CAN2" value="true"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="ETHERNET CONTROLLER" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C3" value="true"/>
+        <property key="I2C4" value="true"/>
+        <property key="I2C5" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="SPI 2" value="true"/>
+        <property key="SPI 3" value="true"/>
+        <property key="SPI 4" value="true"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UpdateOptions"
+                  value="ToolFirmwareOption.UseLatest"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="UART3" value="true"/>
+        <property key="UART4" value="true"/>
+        <property key="UART5" value="true"/>
+        <property key="UART6" value="true"/>
+        <property key="USB" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="true"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="1d000000-1d07ffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.ledbrightness" value="5"/>
+        <property key="programoptions.pgcconfig" value="pull down"/>
+        <property key="programoptions.pgcresistor.value" value="4.7"/>
+        <property key="programoptions.pgdconfig" value="pull down"/>
+        <property key="programoptions.pgdresistor.value" value="4.7"/>
+        <property key="programoptions.pgmentry.voltage" value="low"/>
+        <property key="programoptions.pgmspeed" value="Med"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value="1d000000-1d07ffff"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="voltagevalue" value="3.25"/>
+        <property key="冻结所有其他外设" value="true"/>
+        <property key="安全段。分部编程" value="FullChipProgramming"/>
+      </ICD4Tool>
+      <pk4hybrid>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CAN1" value="true"/>
+        <property key="CAN2" value="true"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="ETHERNET CONTROLLER" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C3" value="true"/>
+        <property key="I2C4" value="true"/>
+        <property key="I2C5" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="SPI 2" value="true"/>
+        <property key="SPI 3" value="true"/>
+        <property key="SPI 4" value="true"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UpdateOptions"
+                  value="ToolFirmwareOption.UseLatest"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="UART3" value="true"/>
+        <property key="UART4" value="true"/>
+        <property key="UART5" value="true"/>
+        <property key="UART6" value="true"/>
+        <property key="USB" value="true"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value=""/>
+        <property key="communication.speed" value="${communication.speed.default}"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="1d000000-1d07ffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="F:/RJ/QD4/QingDao4-to XZW/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_1/QD4CS_ENG_PEDC_MON_PIC32_V1_1.X/debug/default/QD4CS_ENG_PEDC_MON_PIC32_V1_1_ptg"/>
+        <property key="programmerToGoImageName"
+                  value="QD4CS_ENG_PEDC_MON_PIC32_V1_1_ptg"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.ledbrightness" value="5"/>
+        <property key="programoptions.pgcconfig" value="pull down"/>
+        <property key="programoptions.pgcresistor.value" value="4.7"/>
+        <property key="programoptions.pgdconfig" value="pull down"/>
+        <property key="programoptions.pgdresistor.value" value="4.7"/>
+        <property key="programoptions.pgmentry.voltage" value="low"/>
+        <property key="programoptions.pgmspeed" value="Med"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value="1d000000-1d07ffff"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="ptgSendImage" value="true"/>
+        <property key="voltagevalue" value="3.25"/>
+        <property key="冻结所有其他外设" value="true"/>
+        <property key="安全段。分部编程" value="FullChipProgramming"/>
+      </pk4hybrid>
+    </conf>
+  </confs>
+</configurationDescriptor>

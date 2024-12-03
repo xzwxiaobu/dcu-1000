@@ -1,0 +1,1 @@
+copy flash-512K.h  ..\file\canbus\flash.h

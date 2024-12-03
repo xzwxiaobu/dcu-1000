@@ -1,0 +1,7 @@
+﻿工程项目管理中，在链接器文件中 添加             linkerELF_512.ld  (512K) 或 wh2_linkerELF.ld(256K)
+                                    flash.h     对应 flash-512K.h        或 flash-256K.h
+
+512KFlash（PIC32MX795F512H）
+    链接器文件 linkerELF_512.ld ，     procdefs_512.ld 是由linkerELF_512.ld 包含的，
+256KFlash（PIC32MX775F256L）
+    链接器文件 wh2_linkerELF.ld ,      wh2_procdefs.ld 是由wh2_linkerELF.ld 包含的，

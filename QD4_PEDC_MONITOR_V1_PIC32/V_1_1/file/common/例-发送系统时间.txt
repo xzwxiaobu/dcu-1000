@@ -1,0 +1,58 @@
+
+
+接收 MMS 发送的系统时间，并设置给PEDC系统时间
+        /* 系统时间 7 bytes */
+        tSysTime tmpTime;
+        tmpTime.year    = (int16u)(mmsRxBufPtr[8+8+0]) + ((int16u)(mmsRxBufPtr[8+8+1]) << 8);
+        tmpTime.month   = mmsRxBufPtr[8+8+2];
+        tmpTime.day     = mmsRxBufPtr[8+8+3];
+        tmpTime.hour    = mmsRxBufPtr[8+8+4];
+        tmpTime.min     = mmsRxBufPtr[8+8+5];
+        tmpTime.second  = mmsRxBufPtr[8+8+6];
+        setPedcSysTime(&tmpTime);
+
+
+发送系统时间
+        /* 每隔一个小时，通过发送系统时间给 DCU ( 前提条件是，曾经接收到 MMS 发送时间 )
+         *  功能码 FUNID_PEDC_SYSTIME， 可以理解成广播命令，所有DCU都必须处理
+         *  */
+        if(ifPEDCSysTimeValid() == TRUE)
+        {
+            extern int8u  sendDCUSysTime[];
+            
+            tSysTime tmNow;
+            static int8u prevTim = 0xff;
+            static int8u sendSysTimeCnt = 0;
+            static tSYSTICK prevTick = 0;
+            
+            getPedcSysTime(&tmNow);
+            sendDCUSysTime[0] = (int8u)(tmNow.year >> 8);
+            sendDCUSysTime[1] = (int8u)(tmNow.year >> 0);
+            sendDCUSysTime[2] = tmNow.month;
+            sendDCUSysTime[3] = tmNow.day;
+            sendDCUSysTime[4] = tmNow.hour;
+            sendDCUSysTime[5] = tmNow.min;
+            sendDCUSysTime[6] = tmNow.second;
+            
+            if(prevTim != tmNow.hour)
+            {
+                prevTim = tmNow.hour;
+                
+                /* 启动发送系统时间给 DCU */
+                sendSysTimeCnt = 3;
+                prevTick = getSysTick();
+            }
+            
+            /* 发送3次，间隔 500ms */
+            if(sendSysTimeCnt > 0)
+            {
+                if((tSYSTICK)(getSysTick() - prevTick) >= 500)
+                {
+                    prevTick = getSysTick();
+
+                    /* 发送系统时间给 DCU */
+                    wtj_CapiStartTrans(FUNID_PEDC_SYSTIME, 0);
+                    sendSysTimeCnt--;
+                }
+            }
+        }

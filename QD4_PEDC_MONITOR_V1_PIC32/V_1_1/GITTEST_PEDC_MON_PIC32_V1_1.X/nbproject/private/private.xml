@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="9">
+        <file>
+            <url>file:/E:/fangda/lly/Project/_llyPrj/update_dcu_GB/file/canbus/drv/UpApiMst.c</url>
+            <bookmark id="9">
+                <name/>
+                <line>133</line>
+                <key/>
+            </bookmark>
+            <bookmark id="8">
+                <name/>
+                <line>733</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>file:/E:/fangda/wtj_gy2/IBP/PEDC-IBP-PIC32MX795F512H/file/wtj/IO_HANDLE.h</url>
+            <bookmark id="7">
+                <name/>
+                <line>605</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>file:/E:/fangda/lly/Demo/softs/IBP/PEDC-IBP-PIC32MX795F512H/file/wtj/Uart.c</url>
+            <bookmark id="1">
+                <name/>
+                <line>487</line>
+                <key/>
+            </bookmark>
+            <bookmark id="2">
+                <name/>
+                <line>492</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="GY2_PrjGroup"/>
+        <group name="soft_u_wtj">
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/MMSModule/MMS_App.c</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/IOHandle/IO_HANDLE.c</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/IOHandle/IO_HANDLE.h</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/IOHandle/PCB_IO_Def.h</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/IOHandle/ToMMS_InfoDef.h</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/canbus/drv/ApiCanMst.c</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/canbus/drv/UpApiMst.c</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/canbus/drv/glbUpdate.h</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/Main.c</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/BASModule/BASSys_App.c</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/MMSModule/MMSUart.c</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/canbus/ObjDict.c</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/CANModule/can.h</file>
+            <file>file:/E:/fangda/lly/Project/QingDao4/soft-eng/QD4_PEDC_MONITOR_V1_PIC32/V_1_0/file/CANModule/can.c</file>
+        </group>
+        <group>
+            <file>file:/F:/RJ/GITtest_xzw/QD4_PEDC_MONITOR_V1_PIC32/V_1_1/file/Main.c</file>
+        </group>
+    </open-files>
+</project-private>

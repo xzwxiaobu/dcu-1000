@@ -24,7 +24,7 @@
 /* 综合监控的对位隔离功能通过 MMS 转发给PEDC
  * 0 = 不启用, 否则 = 启用
  *  */
-#define CMD_INHIBIT_BY_ISCS         1
+#define CMD_INHIBIT_BY_ISCS       0
 
 /* MMS 操作的对位隔离功能
  * 0 = 不启用, 否则 = 启用

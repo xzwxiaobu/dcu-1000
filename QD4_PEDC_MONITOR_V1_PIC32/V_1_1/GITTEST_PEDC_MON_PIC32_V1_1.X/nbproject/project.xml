@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>GITTEST_PEDC_MON_PIC32_V1_1</name>
+            <creation-uuid>986b6f45-6a20-4e2d-9f58-b508741a285e</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>GB2312</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>..</sourceRootElem>
+                <sourceRootElem>..\file</sourceRootElem>
+                <sourceRootElem>..\linker</sourceRootElem>
+                <sourceRootElem>..\file\wtj</sourceRootElem>
+                <sourceRootElem>..\file\SIG_UART</sourceRootElem>
+                <sourceRootElem>..\file\canbus\drv</sourceRootElem>
+                <sourceRootElem>..\file\canbus</sourceRootElem>
+                <sourceRootElem>..\file\IbpPslSig_UART</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>default</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
