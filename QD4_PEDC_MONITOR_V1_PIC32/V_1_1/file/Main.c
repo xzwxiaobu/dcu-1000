@@ -248,7 +248,7 @@ __attribute__((section (".SEG_MainHandler"))) main()
         
         /* 汇总处理 IO 输入输出，逻辑判断
          */
-        mainIOProcess();
+////        mainIOProcess();
         
         #if (SIGSYS_FUNCT_EN != 0)
         /* PEDC 与信号系统通信 
